@@ -12,8 +12,8 @@ namespace Homework
         {
             //Task1();
             //Task2();
-            //Task3();
-            Task4();
+            Task3();
+            //Task4();
             //Task5();
             //Task6();
             //Task7();
@@ -33,7 +33,9 @@ namespace Homework
 
         public static void Task3()
         {
-
+            var v1 = "v";
+            v1 = "Val";
+            Console.WriteLine(v1);
         }
 
         public static void Task4()
