@@ -11,8 +11,8 @@ namespace Homework
         static void Main(string[] args)
         {
             //Task1();
-            //Task2();
-            Task3();
+            Task2();
+            //Task3();
             //Task4();
             //Task5();
             //Task6();
@@ -28,7 +28,9 @@ namespace Homework
 
         public static void Task2()
         {
-
+            string str1 = "Sasha";
+            string str2 = "Hi" + str1;
+            Console.WriteLine(str2);
         }
 
         public static void Task3()
