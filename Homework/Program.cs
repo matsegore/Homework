@@ -15,8 +15,8 @@ namespace Homework
             //Task3();
             //Task4();
             //Task5();
-            //Task6();
-            Task7();
+            Task6();
+            //Task7();
             //Task8();
             //Task9();
 
@@ -48,6 +48,12 @@ namespace Homework
 
         public static void Task6()
         {
+            int a = 27;
+            Console.WriteLine($"Numb: {a}");
+            int b = a / 10;
+            int c = a % 10;
+            Console.WriteLine($"Left Numb: {b}");
+            Console.WriteLine($"Right Numb: {c}");
 
         }
 
