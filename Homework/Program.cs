@@ -13,8 +13,8 @@ namespace Homework
             //Task1();
             //Task2();
             //Task3();
-            //Task4();
-            Task5();
+            Task4();
+            //Task5();
             //Task6();
             //Task7();
             //Task8();
@@ -38,7 +38,10 @@ namespace Homework
 
         public static void Task4()
         {
-
+            Console.WriteLine("Введите значение стороны квадрата");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int P = a * 4;
+            Console.WriteLine($"Периметр равен: {P}");
         }
 
         public static void Task5()
