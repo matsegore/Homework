@@ -23,7 +23,8 @@ namespace Homework
         }
         public static void Task1()
         {
-
+            int a = 12;
+            Console.WriteLine(a);
         }
 
         public static void Task2()
