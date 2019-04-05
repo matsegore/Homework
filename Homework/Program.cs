@@ -19,6 +19,10 @@ namespace Homework
             //Task7();
             //Task8();
             //Task9();
+            //Test;
+        }
+        public static void Test()
+        {
 
         }
         public static void Task1()
@@ -48,6 +52,7 @@ namespace Homework
             int P = a * 4;
             Console.WriteLine($"Периметр равен: {P}");
         }
+
 
         public static void Task5()
         {
