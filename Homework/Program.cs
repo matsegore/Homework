@@ -16,8 +16,8 @@ namespace Homework
             //Task4();
             //Task5();
             //Task6();
-            //Task7();
-            Task8();
+            Task7();
+            //Task8();
             //Task9();
 
         }
@@ -53,7 +53,10 @@ namespace Homework
 
         public static void Task7()
         {
-
+            int a = 12;
+            int b = 10;
+            long c = a + b;
+            Console.WriteLine(c);
         }
 
         public static void Task8()
