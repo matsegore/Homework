@@ -14,8 +14,8 @@ namespace Homework
             //Task2();
             //Task3();
             //Task4();
-            //Task5();
-            Task6();
+            Task5();
+            //Task6();
             //Task7();
             //Task8();
             //Task9();
@@ -43,6 +43,16 @@ namespace Homework
 
         public static void Task5()
         {
+            const double  p = 3.14;
+            Console.WriteLine("Введите радиус R1 (должен быть большечем R2)");
+            double R1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите радиус R2 (должен быть меньше R1)");
+            double R2 = Convert.ToDouble(Console.ReadLine());
+
+            double S1 = p * R1 * R1;
+            double S2 = p * R2 * R2;
+            double S3 = S1 - S2;
+            Console.WriteLine($"S1: {S1}; S2: {S2}; S3: {S3}");
 
         }
 
